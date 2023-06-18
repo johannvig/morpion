@@ -10,7 +10,7 @@ L'objectif du jeu de Morpion est d'aligner trois de vos marques dans une ligne h
 ## Créer un fichier .jar
 Pour plus d'informations sur comment créer un fichier .jar, veuillez consulter cette vidéo : [Créer un fichier .jar](https://www.youtube.com/watch?v=_XQjs1xGtaU)
 
-ou suivre ces instructions :
+
 
 ### Pour créer un fichier .jar à partir de votre projet JavaFX dans IntelliJ IDEA, suivez les étapes suivantes :
 
