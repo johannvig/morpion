@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.morpionjohanne.QuiCommenceMultijoueur">
+   <children>
+      <Button fx:id="boutonJouer" layoutX="380.0" layoutY="548.0" mnemonicParsing="false" onAction="#jouer" prefHeight="27.0" prefWidth="91.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 15px;" text="Jouer" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <ImageView fitHeight="106.0" fitWidth="200.0" layoutX="150.0" layoutY="1.0">
+         <image>
+            <Image url="@../../../MorpionLogo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="84.0" layoutY="158.0" prefHeight="34.0" prefWidth="233.0" text="Qui va jouer en premier ?" textFill="WHITE">
+         <font>
+            <Font name="Bauhaus 93" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="boutonRetour" layoutX="34.0" layoutY="36.0" mnemonicParsing="false" onAction="#retourEnArriere" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="29.0" fitWidth="34.0">
+               <image>
+                  <Image url="@../../../fleche.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="boutonAléatoire" layoutX="125.0" layoutY="430.0" mnemonicParsing="false" onAction="#quiCommence" prefHeight="40.0" prefWidth="250.0" style="-fx-background-radius: 15px; -fx-background-color: black; -fx-border-radius: 15px; -fx-border-color: white;" text="Aléatoire" textFill="WHITE">
+         <font>
+            <Font name="Bauhaus 93" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="boutonJoueur1" disable="true" layoutX="125.0" layoutY="256.0" mnemonicParsing="false" onAction="#quiCommence" prefHeight="40.0" prefWidth="250.0" style="-fx-background-radius: 15px; -fx-background-color: black; -fx-border-color: white; -fx-border-radius: 15px;" text="Joueur 1" textFill="WHITE">
+         <font>
+            <Font name="Bauhaus 93" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="boutonJoueur2" layoutX="125.0" layoutY="344.0" mnemonicParsing="false" onAction="#quiCommence" prefHeight="40.0" prefWidth="250.0" style="-fx-background-radius: 15px; -fx-background-color: black; -fx-border-color: white; -fx-border-radius: 15px;" text="Joueur 2" textFill="WHITE">
+         <font>
+            <Font name="Bauhaus 93" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
