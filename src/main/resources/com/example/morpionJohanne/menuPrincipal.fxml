@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.morpionjohanne.MenuPrincipal">
+   <children>
+      <Button fx:id="boutonSoloPlayer" layoutX="175.0" layoutY="436.0" mnemonicParsing="false" onAction="#EntrerDansSoloMode" prefHeight="34.0" prefWidth="168.0" style="-fx-background-color: #FF9900;" text="Soloplayer" textFill="WHITE">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font name="Bauhaus 93" size="16.0" />
+         </font></Button>
+      <Button fx:id="boutonMultiplayer" layoutX="176.0" layoutY="488.0" mnemonicParsing="false" onAction="#EntrerDansMultiplayerMode" prefHeight="34.0" prefWidth="168.0" style="-fx-background-color: #FF9900;" text="Multiplayer" textFill="WHITE">
+         <font>
+            <Font name="Bauhaus 93" size="16.0" />
+         </font></Button>
+      <ImageView fitHeight="149.0" fitWidth="273.0" layoutX="124.0">
+         <image>
+            <Image url="@../../../MorpionLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="251.0" fitWidth="256.0" layoutX="129.0" layoutY="155.0">
+         <image>
+            <Image url="@../../../LogoGrille.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="boutonVoirLesRègles" layoutX="175.0" layoutY="541.0" mnemonicParsing="false" onAction="#voirLesRègles" prefHeight="34.0" prefWidth="168.0" style="-fx-background-color: #FF9900;" text="Voir les règles" textFill="WHITE">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font name="Bauhaus 93" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
