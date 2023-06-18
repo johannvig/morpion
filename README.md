@@ -4,5 +4,5 @@ Ce projet est un simple jeu de Morpion développé en JavaFX pour la première a
 Prérequis
 Pour exécuter ce projet, vous aurez besoin de Java et JavaFX installés sur votre machine.
 
-#Utilisation
+# Utilisation
 L'objectif du jeu de Morpion est d'aligner trois de vos marques dans une ligne horizontale, verticale ou diagonale. Les joueurs alternent les tours. Vous jouez contre l'ordinateur dans cette version du jeu.
